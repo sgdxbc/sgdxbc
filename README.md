@@ -1,4 +1,4 @@
-![](./selfie.jpg|width=100px)
+<img src="./selfie.jpg" width=150>
 
 ### Sun Guangda
 
