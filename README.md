@@ -1,4 +1,4 @@
-![](./selfie.jpg)
+![](./selfie.jpg|width=100px)
 
 ### Sun Guangda
 
