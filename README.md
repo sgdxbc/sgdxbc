@@ -1,3 +1,5 @@
+![](./selfie.jpg)
+
 ### Sun Guangda
 
 Email: sung@comp.nus.edu.sg
@@ -22,6 +24,6 @@ I received a Bachelor in Computer Science from Xian Jiaotong University on July,
 
 I implemented the prototype implementations and take part in most of evaluation of the above works. I'm still mantaining the open source project [Rubik](https://github.com/ants-xjtu/rubik) (prototype for NSDI '20 Spring), which is written in thousands of lines of Python, C and Makefile with rich documentation.
 
-I spent a lot of time on learning various programming language and thinking about how to design a pratical language which is both easy-to-learn and compatible with the complexity of real world problems. I'm working on a language called Shattuck, which is mostly trait-based Python with real parallization and less hashtable used. Hopefully I will finish it in NUS.
+I spent a lot of time on learning various programming language (notably Rust, with seris of articles in Chinese like [this one](https://zhuanlan.zhihu.com/p/88478551)) and thinking about how to design a pratical language which is both easy-to-learn and compatible with the complexity of real world problems. I'm working on a language called Shattuck, which is mostly trait-based Python with real parallization and less hashtable used. Hopefully I will finish it in NUS.
 
 I've been involving in researches on networking for years and I've got some experiences on system designing and abstraction. I also have some ideas on serveral kinds of applications and I will release my first homebrew open-sourced project soon.
