@@ -37,11 +37,11 @@ To configure devices in a software defined network (SDN), e.g., packets routes, 
 ### Publication
 
 Hao Li, Peng Zhang, **Guangda Sun**, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
-*A Modular Compiler for Network Programming Languages* \
+*A Modular Compiler for Network Programming Languages* [pdf](https://nskeylab.xjtu.edu.cn/people/pzhang/files/2020/11/conext20.pdf) \
 Proceedings of the 16th International Conference on emerging Networking EXperiments and Technologies (CoNEXT '20)
 
 Hao Li, Peng Zhang, **Guangda Sun**, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
-*An Intermediate Representation for Network Programming Languages* \
+*An Intermediate Representation for Network Programming Languages* [pdf](https://conferences.sigcomm.org/events/apnet2020/material/apnet20-final4.pdf) \
 Proceedings of the 4th Asia-Pacific Workshop on Networking (APNet '20)
 
 ### Repository
@@ -55,7 +55,7 @@ Rubik is a network stack parser generator for network function middleboxes. It p
 ### Publication
 
 Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
-*Programming Network Stack for Middleboxes with Rubik* \
+*Programming Network Stack for Middleboxes with Rubik* [pdf](https://www.usenix.org/system/files/nsdi21-li.pdf) \
 Proceeding of the 18th USENIX Symposium on Networked Systems Design and Implementation (NSDI '21)
 
 ### Repository
