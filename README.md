@@ -1,8 +1,3 @@
-<img src="./selfie.jpg" width=150>
-
-### Sun Guangda
-
-Email: sung@comp.nus.edu.sg
 <img alt="Selfie at late 2019, best one until now" src="./selfie.jpg" width=256>
 
 ### **Sun Guangda 孙广大**
