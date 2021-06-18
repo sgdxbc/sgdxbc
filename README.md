@@ -73,6 +73,14 @@ Proceeding of the 18th USENIX Symposium on Networked Systems Design and Implemen
 
 # Projects
 
+## Shift Saver
+
+A VSCode extension which provides a "shift saving" mode. In the mode all space and hypen typing will be treated as underscore or capitilization, which makes naming variables shift-key-free. I also made a [video](https://www.bilibili.com/video/BV1FT4y1K7fn) to introduce it.
+
+### Repository
+
+[whoiscc/shift-saver](https://github.com/whoiscc/shift-saver), [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
+
 ## Shattuck
 
 A script language inspired by Rust. Shattuck gives user a chance to use perfect Rust without worring about scary lifetime stuff. The prototype is implemented in Python and offical interpreter is implemented in Rust. I wrote [a serise of articles](https://zhuanlan.zhihu.com/p/65376093) for it on Zhihu.
