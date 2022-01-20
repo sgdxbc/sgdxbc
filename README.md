@@ -1,4 +1,5 @@
-<img alt="Selfie at late 2019, best one until now" src="./selfie.jpg" width=256>
+<img src="https://user-images.githubusercontent.com/59077595/150301233-96be15ea-055f-4ba4-a78b-516bbede1524.jpg" width="400">
+
 
 ### **Sun Guangda 孙广大**
 
@@ -80,22 +81,6 @@ A VSCode extension which provides a "shift saving" mode. In the mode all space a
 ### Repository
 
 [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver), [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
-
-## Shattuck
-
-A script language inspired by Rust. Shattuck gives user a chance to use perfect Rust without worring about scary lifetime stuff. The prototype is implemented in Python and offical interpreter is implemented in Rust. I wrote [a serise of articles](https://zhuanlan.zhihu.com/p/65376093) for it on Zhihu.
-
-### Repository
-
-[whoiscc/shattuck](https://github.com/whoiscc/shattuck)
-
-## RIoG
-
-The reference implementation of games project aims to provide a general interface for web-based tiny games, with implementation of several popular games.
-
-### Repository
-
-[whoiscc/riog-project](https://github.com/whoiscc/riog-project)
 
 ----
 
