@@ -22,7 +22,7 @@
     * Front-end design
     * Garbage collector
     * Interpreter implementation
-* Graphic
+* Graphic & simulation
 * Web/desktop applications
 * Software verification
 * Music
