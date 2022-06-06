@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/59077595/151692806-b029b3a3-36a0-41f0-a8f3-be1dd6d14596.jpg" width="256">
+<img src="https://user-images.githubusercontent.com/59077595/172144467-cfe9dfb1-fe0c-4bb3-a31c-2981d30e543b.jpg" width="150">
 
 
 ### **Sun Guangda 孙广大**
@@ -76,4 +76,4 @@ NSDI '21
 
 ---
 
-Last revised on June 6, 2022. Online version of this CV is on my [GitHub profile](https://github.com/sgdxbc).
+Last revised on June 6, 2022. Online version of this CV is on https://github.com/sgdxbc.
