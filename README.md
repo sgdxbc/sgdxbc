@@ -13,23 +13,15 @@
 
 # Interests
 
-* **Research:** Network system
+* **Research:** system & networking
     * Distributed protocols
     * Software defined network
     * Network function virtualization
-    * Programmable switch
-* Programming language
-    * Front-end design
-    * Garbage collector
-    * Interpreter implementation
-* Graphic & simulation
-* Web/desktop applications
-* Software verification
-* Music
-    * Piano
-    * Electronic
-
-<div style="page-break-before: right;"></div>
+    * Decentralized networking 
+* Implementation of programming language interpreter
+* Graphics & simulation
+* Piano
+* Electronic music
 
 # Works
 
@@ -39,13 +31,17 @@ To configure devices in a software defined network (SDN), e.g., packets routes, 
 
 ### Publication
 
+Hao Li, Peng Zhang, **Guangda Sun**, Wanyue Cao, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
+*Compiling Cross-Language Network Programs Into Hybrid Data Plane* [pdf](https://aquatoney.github.io/files/coder-ton22-li.pdf) \
+ToN '22, doi: 10.1109/TNET.2021.3132303.
+
 Hao Li, Peng Zhang, **Guangda Sun**, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
 *A Modular Compiler for Network Programming Languages* [pdf](https://nskeylab.xjtu.edu.cn/people/pzhang/files/2020/11/conext20.pdf) \
-Proceedings of the 16th International Conference on emerging Networking EXperiments and Technologies (CoNEXT '20)
+CoNEXT '20, doi: 10.1145/3386367.3432063
 
 Hao Li, Peng Zhang, **Guangda Sun**, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
 *An Intermediate Representation for Network Programming Languages* [pdf](https://conferences.sigcomm.org/events/apnet2020/material/apnet20-final4.pdf) \
-Proceedings of the 4th Asia-Pacific Workshop on Networking (APNet '20)
+APNet '20, doi: 10.1145/3411029.3411030
 
 ### Repository
 
@@ -59,7 +55,7 @@ Rubik is a network stack parser generator for network function middleboxes. It p
 
 Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
 *Programming Network Stack for Middleboxes with Rubik* [pdf](https://www.usenix.org/system/files/nsdi21-li.pdf) \
-Proceeding of the 18th USENIX Symposium on Networked Systems Design and Implementation (NSDI '21)
+NSDI '21
 
 ### Repository
 
@@ -68,20 +64,16 @@ Proceeding of the 18th USENIX Symposium on Networked Systems Design and Implemen
 ## [WIP]
 
 * A run-to-complete NFV framework which can provide isolation with PKU, and can run existing NFs with custom dynimical library loader.
-* A BFT protocol which eliminate consensus overhead with programmable switch.
-
-<div style="page-break-before: right;"></div>
+* A BFT protocol which eliminates consensus overhead with programmable switch.
 
 # Projects
 
 ## Shift Saver
 
-A VSCode extension which provides a "shift saving" mode. In the mode all space and hypen typing will be treated as underscore or capitilization, which makes naming variables shift-key-free. I also made a [video](https://www.bilibili.com/video/BV1FT4y1K7fn) to introduce it.
+* Repository: [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver)
+* Marketplace: [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
+* [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
-### Repository
+---
 
-[whoiscc/shift-saver](https://github.com/whoiscc/shift-saver), [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
-
-----
-
-Online version of this cv is on my [GitHub profile](https://github.com/sgdxbc).
+Last revised on June 6, 2022. Online version of this CV is on my [GitHub profile](https://github.com/sgdxbc).
