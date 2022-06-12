@@ -1,5 +1,4 @@
-<img src="https://user-images.githubusercontent.com/59077595/172144467-cfe9dfb1-fe0c-4bb3-a31c-2981d30e543b.jpg" width="150">
-
+<img src="https://user-images.githubusercontent.com/59077595/173223292-b0440577-cdaf-4c1d-b47c-925ed56b10b1.jpeg" width="150">
 
 ### **Sun Guangda 孙广大**
 
