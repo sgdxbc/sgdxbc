@@ -19,6 +19,8 @@ Signaficant personal interests: interpreter and runtime for programming language
 
 Playing piano and listening to electronic music for all the time.
 
+<div style="page-break-after: always;"></div>
+
 # Works
 
 ## NeoBFT
