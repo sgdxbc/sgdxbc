@@ -1,6 +1,6 @@
 <img src="https://github.com/sgdxbc/sgdxbc/assets/59077595/429095da-c65d-44a4-a60c-c3292dc41efd" width="150">
 
-### **Sun Guangda 孙广大**
+### **<ins>Sun</ins> Guangda <ins>孙</ins>广大**
 
 * Email: sung@comp.nus.edu.sg
 * GitHub: [sgdxbc](https://github.com/sgdxbc) (research) / [whoiscc](https://github.com/whoiscc) (personal)
@@ -19,7 +19,8 @@ Signaficant personal interests: interpreter and runtime for programming language
 
 Playing piano and listening to electronic music for all the time.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-before:always">&nbsp;</div>
+<p></p>
 
 # Works
 
