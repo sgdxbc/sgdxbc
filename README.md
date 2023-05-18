@@ -12,17 +12,28 @@
 
 # Interests
 
-* **Research:** system & networking
-    * Distributed protocols
-    * Software defined network
-    * Network function virtualization
-    * Decentralized networking 
-* Implementation of programming language interpreter
-* Graphics & simulation
-* Piano
-* Electronic music
+Currently focused research topics are **distributed and decentralized systems**.
+Previous works also relate to software defined network and network middleboxes.
+
+Signaficant personal interests: interpreter and runtime for programming language, graphics, simulation and model checking.
+
+Playing piano and listening to electronic music for all the time.
 
 # Works
+
+## Rubik
+
+Rubik is a network stack parser generator for network function middleboxes. It provides a programming model for network protocols and protocol stacks with handful abstractions like flow table and reordered buffer. With Rubik, user can write only hundreds of lines of configuration, which will be transformed into tens of thousands of lines of C code. The generated protocol parser is more efficient than any human-writing ones.
+
+### Publication
+
+Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
+*Programming Network Stack for Middleboxes with Rubik* [pdf](https://www.usenix.org/system/files/nsdi21-li.pdf) \
+NSDI '21
+
+### Repository
+
+[ants-xjtu/rubik](https://github.com/ants-xjtu/rubik) as the major contributor.
 
 ## CODER
 
@@ -44,26 +55,7 @@ APNet '20, doi: 10.1145/3411029.3411030
 
 ### Repository
 
-[ants-xjtu/sidfam-v3](https://github.com/ants-xjtu/sidfam-v3) (contributed 100% by me)
-
-## Rubik
-
-Rubik is a network stack parser generator for network function middleboxes. It provides a programming model for network protocols and protocol stacks with handful abstractions like flow table and reordered buffer. With Rubik, user can write only hundreds of lines of configuration, which will be transformed into tens of thousands of lines of C code. The generated protocol parser is more efficient than any human-writing ones.
-
-### Publication
-
-Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
-*Programming Network Stack for Middleboxes with Rubik* [pdf](https://www.usenix.org/system/files/nsdi21-li.pdf) \
-NSDI '21
-
-### Repository
-
-[ants-xjtu/rubik](https://github.com/ants-xjtu/rubik) (contributed 99% by me)
-
-## [WIP]
-
-* A run-to-complete NFV framework which can provide isolation with PKU, and can run existing NFs with custom dynimical library loader.
-* A BFT protocol which eliminates consensus overhead with programmable switch.
+[ants-xjtu/sidfam-v3](https://github.com/ants-xjtu/sidfam-v3) as the only contributor.
 
 # Projects
 
@@ -75,4 +67,4 @@ NSDI '21
 
 ---
 
-Last revised on June 6, 2022. Online version of this CV is on https://github.com/sgdxbc.
+Last revised on May 18 2023. Online version of this CV is on https://github.com/sgdxbc.
