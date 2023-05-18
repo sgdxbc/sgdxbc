@@ -19,13 +19,8 @@ Signaficant personal interests: interpreter and runtime for programming language
 
 Playing piano and listening to electronic music for all the time.
 
-<div style="page-break-before:always">&nbsp;</div>
-<p></p>
-
 # Works
-
 ## NeoBFT
-
 Byzantine fault tolerant (BFT) protocols are capable of masking these types of failures, but are rarely deployed due to their performance cost and complexity. 
 In this work, we propose a new approach to designing high performance BFT protocols in data centers. 
 By re-examining the ordering responsibility between the network and the BFT protocol, we advocate a new abstraction offered by the data center network infrastructure. 
@@ -39,7 +34,6 @@ SIGCOMM '23
 **Repository**: [sgdxbc/dsys at sigcomm23](https://github.com/sgdxbc/dsys/tree/sigcomm23)
 
 ## LemonNFV
-
 A novel NFV framework that can consolidate heterogeneous NFs without code modification. LemonNFV loads NFs into a single process down to the binary level, schedules them using an intercepted I/O, and isolates them with the help of a restricted memory allocator.
 
 Hao Li, Yihan Dang, **Guangda Sun**, Guyue Liu, Danfeng Shan and Peng Zhang \
@@ -49,7 +43,6 @@ NSDI '23
 **Repository**: [ants-xjtu/neptune](https://github.com/ants-xjtu/neptune).
 
 ## Rubik
-
 Rubik is a network stack parser generator for network function middleboxes. It provides a programming model for network protocols and protocol stacks with handful abstractions like flow table and reordered buffer. With Rubik, user can write only hundreds of lines of configuration, which will be transformed into tens of thousands of lines of C code. The generated protocol parser is more efficient than any human-writing ones.
 
 Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
@@ -59,7 +52,6 @@ NSDI '21
 **Repository**: [ants-xjtu/rubik](https://github.com/ants-xjtu/rubik) as the major contributor.
 
 ## CODER
-
 To configure devices in a software defined network (SDN), e.g., packets routes, network functions location and resource allocation, serveral high-level abstractions and languages, like Merlin and SNAP, are developed. CODER provides an common immediate representation for all SDN languages, defines precise semantic of combining SDN programs, and lets SDN programs written in different languages work together. With CODER user has more power on configuring SDN.
 
 Hao Li, Peng Zhang, **Guangda Sun**, Wanyue Cao, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
@@ -77,9 +69,7 @@ APNet '20, doi: 10.1145/3411029.3411030
 **Repository**: [ants-xjtu/sidfam-v3](https://github.com/ants-xjtu/sidfam-v3) as the only contributor.
 
 # Projects
-
 ## Shift Saver
-
 * Repository: [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver)
 * Marketplace: [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
 * [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
