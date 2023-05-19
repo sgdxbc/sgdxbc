@@ -23,7 +23,7 @@ Playing piano and listening to electronic music for all the time.
 
 ### NeoBFT
 
-Byzantine fault tolerant (BFT) protocols are capable of masking these types of failures, but are rarely deployed due to their performance cost and complexity. 
+Byzantine fault tolerant (BFT) protocols are capable of masking sophisticated failures, but are rarely deployed due to their performance cost and complexity. 
 In this work, we propose a new approach to designing high performance BFT protocols in data centers. 
 By re-examining the ordering responsibility between the network and the BFT protocol, we advocate a new abstraction offered by the data center network infrastructure. 
 Feasibility of the design is demonstrated by two hardware implementations - one using HMAC and the other using public key cryptography for authentication - on new-generation programmable switches. 
@@ -81,4 +81,4 @@ APNet '20, doi: 10.1145/3411029.3411030
 * Marketplace: [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
 * [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
-<sub>Last revised on May 18 2023. Online version of this CV is on https://github.com/sgdxbc.</sub>
+<sub>Last revised on May 19 2023. Online version of this CV is on https://github.com/sgdxbc.</sub>
