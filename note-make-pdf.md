@@ -5,7 +5,7 @@ Since it's fairly rare to revise this bio, I would not bother to automate PDF ge
 3. Paste and run
 
   ```
-  x = document.querySelector('.Box-body'); document.body.innerHTML = ''; document.body.appendChild(x)
+  x = document.querySelector('.markdown-body'); document.body.innerHTML = ''; document.body.appendChild(x)
   ```
 
 4. Print the page into PDF.
