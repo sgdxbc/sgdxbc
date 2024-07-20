@@ -8,16 +8,16 @@
 ## Education
 
 * Bachelor's degree from Xian JiaoTong University (2020)
-* Ph.D student at National University of Singapore (2020-)
+* Ph.D candidate at National University of Singapore (2020-)
 
 ## Interests
 
 **Research topics.**
-Building faulty tolerance systems both inside data centers and in the wild planet scale networks.
+Building faulty tolerance systems both inside data centers and in the wild planet-scale networks.
 Previous works discovered various topics in networking.
 
 **Learned.**
-Rust, Python, C, Java, JavaScript, LaTex, asynchronous programming, network programming, Gurobi, Terraform, Vue, compiler frontend, interpreter, memory allocator / garbage collection, Stack Overflow. \
+Rust, Python, C, Java, JavaScript, LaTeX, asynchronous programming, network programming, Gurobi, Terraform, Vue, compiler frontend, interpreter, memory allocator / garbage collection, Stack Overflow. \
 **Learning.**
 Coq, P4, Haskell, model checking, simulation, phsically based rendering, data processing, zero knowledge proof.
 
@@ -94,6 +94,4 @@ APNet '20, doi: 10.1145/3411029.3411030
 **Marketplace** [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver) \
 [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
-<sub>Last revised on Jul 20 2024. [Online version](https://github.com/sgdxbc) / [PDF](https://raw.githubusercontent.com/sgdxbc/sgdxbc/main/README.pdf)</sub>
-
-<base href="https://raw.githubusercontent.com/sgdxbc/sgdxbc/main/">
+<sub>Last revised on Jul 20 2024. [Online version](https://github.com/sgdxbc) / [PDF](https://sgdxbc.github.io/sgdxbc/README.pdf)</sub>
