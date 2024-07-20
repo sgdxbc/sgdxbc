@@ -2,7 +2,7 @@
 
 ### **<ins>Sun</ins> Guangda <ins>孙</ins>广大**
 
-* Email: sung@comp.nus.edu.sg
+* Email: guangda@u.nus.edu
 * GitHub: [sgdxbc](https://github.com/sgdxbc) (research) / [whoiscc](https://github.com/whoiscc) (personal)
 
 ## Education
@@ -46,6 +46,10 @@ NSDI '23
 ### Rubik
 
 Generate protocol stack implementation of standard/modded protocols for network functions with a versatile model and minimal code.
+
+Hao Li, Yihan Dang, **Guangda Sun**, Changhao Wu, Peng Zhang, Danfeng Shan, Tian Pan, and Chengchen Hu \
+*Programming Network Stack for Physical Middleboxes and Virtualized Network Functions* [pdf](papers/TNET.2023.3307641.pdf)
+ToN '24, doi: 10.1109/TNET.2023.3307641
 
 Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
 *Programming Network Stack for Middleboxes with Rubik* [pdf](papers/nsdi21-li.pdf) \
