@@ -95,3 +95,5 @@ APNet '20, doi: 10.1145/3411029.3411030
 [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
 <sub>Last revised on Jul 20 2024. [Online version](https://github.com/sgdxbc) / [PDF](https://sgdxbc.github.io/sgdxbc/README.pdf)</sub>
+
+<base href="https://sgdxbc.github.io/sgdxbc/">

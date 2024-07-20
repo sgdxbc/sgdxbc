@@ -39,6 +39,8 @@ jobs:
           python-version: "3.12"
       - name: Install toolchains
         run: |
+          sudo apt update
+          sudo apt install fonts-noto-cjk
           curl -OL https://github.com/jgm/pandoc/releases/download/3.2.1/pandoc-3.2.1-1-amd64.deb
           sudo dpkg -i pandoc-3.2.1-1-amd64.deb
           python -m pip install --upgrade pip
