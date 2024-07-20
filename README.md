@@ -12,30 +12,33 @@
 
 ## Interests
 
-Research topics: building faulty tolerance systems both inside data centers and in the wild planet scale networks.
+**Research topics.**
+Building faulty tolerance systems both inside data centers and in the wild planet scale networks.
 Previous works discovered various topics in networking.
 
-Get used to: Rust, Python, C, Java, JavaScript, LaTex, asynchronous programming, network programming, Gurobi, Terraform, Vue, compiler frontend, interpreter, memory allocator / garbage collection, Stack Overflow. \
-Learning: Coq, P4, Haskell, model checking, simulation, phsically based rendering, data processing, zero knowledge proof.
+**Learned.**
+Rust, Python, C, Java, JavaScript, LaTex, asynchronous programming, network programming, Gurobi, Terraform, Vue, compiler frontend, interpreter, memory allocator / garbage collection, Stack Overflow. \
+**Learning.**
+Coq, P4, Haskell, model checking, simulation, phsically based rendering, data processing, zero knowledge proof.
 
-Have been playing piano and listened to electronic music for a long time.
+Have been playing piano and listening to electronic music for a long time.
 Favorites: Chopin / (early) Deadmau5.
+
+<div style="break-after:page"></div>
 
 ## Works
 
-### NeoBFT
-
-Equip programmable switches with cryptographics and use them to improve ordering performance of BFT protocols.
+> Equip programmable switches with cryptographics and use them to improve ordering performance of BFT protocols.
 
 **Guangda Sun**, Mingliang Jiang, Xin Zhe Khooi, Yunfan Li, Jialin Li \
 *NeoBFT: Accelerating Byzantine Fault Tolerance Using Authenticated In-Network Ordering* [pdf](papers/3603269.3604874.pdf) \
 SIGCOMM '23, doi: 10.1145/3603269.3604874
 
-**Repository**: [nus-sys/neobft-artifact](https://github.com/nus-sys/neobft-artifact)
+**Repository** [nus-sys/neobft-artifact](https://github.com/nus-sys/neobft-artifact)
 
-### LemonNFV
+----
 
-Efficient run-to-complete network function virtualization that is as robust as process-level isolated solutions.
+> Efficient run-to-complete network function virtualization that is as robust as process-level isolated solutions.
 
 Hao Li, Yihan Dang, **Guangda Sun**, Guyue Liu, Danfeng Shan, Peng Zhang \
 *LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed* [pdf](papers/nsdi23-li-hao.pdf) \
@@ -43,12 +46,12 @@ NSDI '23
 
 **Repository**: [ants-xjtu/neptune](https://github.com/ants-xjtu/neptune).
 
-### Rubik
+----
 
-Generate protocol stack implementation of standard/modded protocols for network functions with a versatile model and minimal code.
+> Generate protocol stack implementation of standard/modded protocols for network functions with a versatile model and minimal code.
 
 Hao Li, Yihan Dang, **Guangda Sun**, Changhao Wu, Peng Zhang, Danfeng Shan, Tian Pan, and Chengchen Hu \
-*Programming Network Stack for Physical Middleboxes and Virtualized Network Functions* [pdf](papers/TNET.2023.3307641.pdf)
+*Programming Network Stack for Physical Middleboxes and Virtualized Network Functions* [pdf](papers/TNET.2023.3307641.pdf) \
 ToN '24, doi: 10.1109/TNET.2023.3307641
 
 Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu \
@@ -57,9 +60,9 @@ NSDI '21
 
 **Repository**: [ants-xjtu/rubik](https://github.com/ants-xjtu/rubik).
 
-### CODER
+----
 
-Universal, state machine based immediate representation for network programming and the compilation toolchain around it.
+> Universal, state machine based immediate representation for network programming and the compilation toolchain around it.
 
 Hao Li, Peng Zhang, **Guangda Sun**, Wanyue Cao, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu \
 *Compiling Cross-Language Network Programs Into Hybrid Data Plane* [pdf](papers/coder-ton22-li.pdf) \
@@ -77,18 +80,19 @@ APNet '20, doi: 10.1145/3411029.3411030
 
 ## Projects
 
-### Neatworks
-
-Academic research purposed networking codebase in Rust.
+> Academic research purposed networking codebase in Rust.
 
 * Repository: [neatsys/neatworks](https://github.com/neatsys/neatworks)
 
-### Shift Saver
+----
 
-Editor extension that translate pressing space key into holding shift key, for typing camel case or underscore identifiers without involving little fingers.
+> Editor extension that translate pressing space key into holding shift key, for typing camel case or underscore identifiers without involving little fingers.
 
 * Repository: [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver)
 * Marketplace: [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
 * [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
 <sub>Last revised on Jul 20 2024. Online version of this CV is on https://github.com/sgdxbc.</sub>
+
+<script>document.body.className = 'libertinus'</script>
+<style>body { line-height: 1.2; }</style>
