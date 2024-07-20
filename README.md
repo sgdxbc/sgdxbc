@@ -12,13 +12,14 @@
 
 ## Interests
 
-Research topics are building faulty tolerance systems for both data center and worldwide networks.
-Previous works also relate to software defined network, middleboxes and network virtualization.
+Research topics: building faulty tolerance systems both inside data centers and in the wild planet scale networks.
+Previous works discovered various topics in networking.
 
 Get used to: Rust, Python, C, Java, JavaScript, LaTex, asynchronous programming, network programming, Gurobi, Terraform, Vue, compiler frontend, interpreter, memory allocator / garbage collection, Stack Overflow. \
 Learning: Coq, P4, Haskell, model checking, simulation, phsically based rendering, data processing, zero knowledge proof.
 
 Have been playing piano and listened to electronic music for a long time.
+Favorites: Chopin / (early) Deadmau5.
 
 ## Works
 
