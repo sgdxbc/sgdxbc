@@ -96,6 +96,4 @@ APNet '20, doi: 10.1145/3411029.3411030
 
 <sub>Last revised on Jul 20 2024. Online version of this CV is on https://github.com/sgdxbc.</sub>
 
-<script>document.body.className = 'libertinus'</script>
-<style>body { line-height: 1.2; }</style>
 <base href="https://github.com/sgdxbc/sgdxbc/blob/main/">
