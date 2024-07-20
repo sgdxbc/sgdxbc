@@ -44,7 +44,7 @@ Hao Li, Yihan Dang, **Guangda Sun**, Guyue Liu, Danfeng Shan, Peng Zhang \
 *LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed* [pdf](papers/nsdi23-li-hao.pdf) \
 NSDI '23
 
-**Repository**: [ants-xjtu/neptune](https://github.com/ants-xjtu/neptune).
+**Repository** [ants-xjtu/neptune](https://github.com/ants-xjtu/neptune)
 
 ----
 
@@ -58,7 +58,7 @@ Hao Li, Changhao Wu, **Guangda Sun**, Peng Zhang, Danfeng Shan, Tian Pan, Chengc
 *Programming Network Stack for Middleboxes with Rubik* [pdf](papers/nsdi21-li.pdf) \
 NSDI '21
 
-**Repository**: [ants-xjtu/rubik](https://github.com/ants-xjtu/rubik).
+**Repository** [ants-xjtu/rubik](https://github.com/ants-xjtu/rubik)
 
 ----
 
@@ -76,21 +76,21 @@ Hao Li, Peng Zhang, **Guangda Sun**, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang
 *An Intermediate Representation for Network Programming Languages* [pdf](papers/apnet20-final4.pdf) \
 APNet '20, doi: 10.1145/3411029.3411030
 
-**Repository**: [ants-xjtu/sidfam-v3](https://github.com/ants-xjtu/sidfam-v3).
+**Repository** [ants-xjtu/sidfam-v3](https://github.com/ants-xjtu/sidfam-v3)
 
 ## Projects
 
 > Academic research purposed networking codebase in Rust.
 
-* Repository: [neatsys/neatworks](https://github.com/neatsys/neatworks)
+**Repository** [neatsys/neatworks](https://github.com/neatsys/neatworks)
 
 ----
 
 > Editor extension that translate pressing space key into holding shift key, for typing camel case or underscore identifiers without involving little fingers.
 
-* Repository: [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver)
-* Marketplace: [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver)
-* [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
+**Repository** [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver) \
+**Marketplace** [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver) \
+[Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
 <sub>Last revised on Jul 20 2024. Online version of this CV is on https://github.com/sgdxbc.</sub>
 
