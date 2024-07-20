@@ -1,0 +1,2 @@
+pandoc -s -c https://latex.vercel.app/style.css -o index.html README.md
+document.body.className = 'libertinus'; document.body.style.lineHeight = 1.2

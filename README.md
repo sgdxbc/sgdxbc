@@ -94,6 +94,6 @@ APNet '20, doi: 10.1145/3411029.3411030
 **Marketplace** [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver) \
 [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
-<sub>Last revised on Jul 20 2024. Online version of this CV is on https://github.com/sgdxbc.</sub>
+<sub>Last revised on Jul 20 2024. [Online version](https://github.com/sgdxbc) / [PDF](https://raw.githubusercontent.com/sgdxbc/sgdxbc/main/README.pdf)</sub>
 
-<base href="https://github.com/sgdxbc/sgdxbc/blob/main/">
+<base href="https://raw.githubusercontent.com/sgdxbc/sgdxbc/main/">
