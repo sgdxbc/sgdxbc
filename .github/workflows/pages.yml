@@ -40,7 +40,7 @@ jobs:
       - name: Install toolchains
         run: |
           sudo apt update
-          sudo apt install fonts-noto-cjk
+          sudo apt install ghostscript fonts-noto-cjk
           curl -OL https://github.com/jgm/pandoc/releases/download/3.2.1/pandoc-3.2.1-1-amd64.deb
           sudo dpkg -i pandoc-3.2.1-1-amd64.deb
           python -m pip install --upgrade pip
@@ -51,6 +51,7 @@ jobs:
           mkdir _site
           pandoc -s -c https://latex.vercel.app/style.css -A footer.html -o README.html README.md
           python render.py
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=_site/README.pdf README.pdf
           cp -r papers _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

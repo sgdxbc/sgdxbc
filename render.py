@@ -6,5 +6,5 @@ with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page()
     page.goto(f"file:///{cwd}/README.html")
-    page.pdf(path="_site/README.pdf")
+    page.pdf(path="README.pdf")
     browser.close()
