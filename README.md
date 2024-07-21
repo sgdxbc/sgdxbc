@@ -14,12 +14,12 @@
 
 **Research topics.**
 Building faulty tolerance systems both inside data centers and in the wild planet-scale networks.
-Previous works discovered various topics in networking.
+Previous works also discovered various topics in networking.
 
-**Learned.**
-Rust, Python, C, Java, JavaScript, LaTeX, asynchronous programming, network programming, Gurobi, Terraform, Vue, compiler frontend, interpreter, memory allocator / garbage collection, Stack Overflow. \
-**Learning.**
-Coq, P4, Haskell, model checking, simulation, phsically based rendering, data processing, zero knowledge proof.
+**Work with**
+Rust, Python, C, Java, JavaScript, LaTeX, Seaborn, DPDK, Gurobi, Terraform, Vue, Stack Overflow, asynchronous programming, network programming, compiler frontend, interpreter, memory allocator / garbage collection. \
+**Learning**
+Coq, Haskell, P4, model checking, simulation, phsically based rendering, zero knowledge proof.
 
 Have been playing piano and listening to electronic music for a long time.
 Favorites: Chopin / (early) Deadmau5.
@@ -48,7 +48,7 @@ NSDI '23
 
 ----
 
-> Generate protocol stack implementation of standard/modded protocols for network functions with a versatile model and minimal code.
+> Generate protocol stack implementations of either standard or modded protocols for network functions with a fexible programming model and minimal coding effort.
 
 Hao Li, Yihan Dang, **Guangda Sun**, Changhao Wu, Peng Zhang, Danfeng Shan, Tian Pan, and Chengchen Hu \
 *Programming Network Stack for Physical Middleboxes and Virtualized Network Functions* [pdf](papers/TNET.2023.3307641.pdf) \
@@ -82,18 +82,18 @@ APNet '20, doi: 10.1145/3411029.3411030
 
 ## Projects
 
-> Academic research purposed networking codebase in Rust.
+> Academic research purposed networking codebase in Rust that is idiomatic, extensive and reliable (for catching deadlines).
 
 **Repository** [neatsys/neatworks](https://github.com/neatsys/neatworks)
 
 ----
 
-> Editor extension that translate pressing space key into holding shift key, for typing camel case or underscore identifiers without involving little fingers.
+> Editor extension that translates pressing space key into holding shift key, for typing camel case or underscore identifiers without involving little fingers.
 
 **Repository** [whoiscc/shift-saver](https://github.com/whoiscc/shift-saver) \
 **Marketplace** [Shift Saver](https://marketplace.visualstudio.com/items?itemName=correctizer.shift-saver) \
 [Video](https://www.bilibili.com/video/BV1FT4y1K7fn)
 
-<sub>Last revised on Jul 20 2024. [Online version](https://github.com/sgdxbc) / [PDF](https://sgdxbc.github.io/sgdxbc/README.pdf)</sub>
+<sub>Last revised on Jul 20 2024. Online version on [GitHub profile](https://github.com/sgdxbc) / [pdf](https://sgdxbc.github.io/sgdxbc/README.pdf)</sub>
 
 <base href="https://sgdxbc.github.io/sgdxbc/">
