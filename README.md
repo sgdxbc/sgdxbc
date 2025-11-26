@@ -7,3 +7,5 @@
 * GitHub: [sgdxbc](https://github.com/sgdxbc) (research) / [whoiscc](https://github.com/whoiscc) (personal)
 
 `[Under construction]`
+
+[cv](https://github.com/user-attachments/files/23763144/cv_guangda.pdf)
