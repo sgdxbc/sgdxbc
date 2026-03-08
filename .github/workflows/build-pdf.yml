@@ -3,6 +3,11 @@ name: Build PDF
 on:
   push:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
@@ -17,8 +22,23 @@ jobs:
           root_file: main.tex
           args: -pdf
 
-      - name: Upload main.pdf artifact
-        uses: actions/upload-artifact@v4
+      - name: Prepare Pages content
+        run: |
+          mkdir -p site
+          cp main.pdf site/main.pdf
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: main-pdf
-          path: main.pdf
+          path: site
+
+  deploy-pages:
+    needs: build-pdf
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
