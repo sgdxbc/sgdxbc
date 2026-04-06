@@ -20,46 +20,167 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass{resume} % Use the custom resume.cls style
 
-\usepackage{lmodern}
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-\usepackage{graphicx}
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+% \usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{newpxtext}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
 \name{\underline{Sun} Guangda} % Your name
 % \address{National University of Singapore \\ 21 Lower Kent Ridge Rd, Singapore 119077} % Your address
   
-\address{\href{https://github.com/sgdxbc}{GitHub} \\ \href{mailto:sung@comp.nus.edu.sg}{sung@comp.nus.edu.sg}} % Your phone number and email
+\address{\href{https://github.com/sgdxbc}{GitHub: sgdxbc} \\ \href{mailto:sung@comp.nus.edu.sg}{sung@comp.nus.edu.sg}} % Your phone number and email
 
 \begin{document}
+
+Ph.D. candidate in Computer Science at NUS researching scalable and secure distributed systems, with a focus on blockchain storage, decentralized data availability, and high-performance BFT protocols.
+I build end-to-end systems in Rust and evaluate them at scale, and my work has been published at top venues including SIGCOMM, NSDI, and IEEE/ACM ToN.
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
 \begin{rSection}{Education}
-{\bf National University of Singapore}, Singapore, Singapore \hfill {\em 2020 - present} \\ 
-Ph.D. Candidate, School of Computing \\
-Advisor: Jialin Li \\
-% Research Topics: Building faulty tolerance systems both inside data centers and in the wild planet-scale networks. Previous works also discovered various topics in networking.
+    \textbf{National University of Singapore} \hfill {\em 2020 - present} \\ 
+    Ph.D. Candidate in Computer Science \\
+    Advisor: Jialin Li, Assistant Professor \\
 
-{\bf Xi'an Jiaotong University}, Shaanxi, China \hfill {\em 2016 - 2020} \\ 
-School of Electronic and Information Engineering \\
-Bachelor of Engineering in Computer Science and Technology, Honors Youth Program \\
-Advisor: Hao Li
+    \textbf{Xi'an Jiaotong University}  \hfill {\em 2016 - 2020} \\ 
+    % School of Electronic and Information Engineering \\
+    Bachelor of Engineering in Computer Science and Technology, Honors Youth Program \\
+    Advisor: Hao Li, Associate Professor
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
+\begin{rSection}{Research experience}
+    \begin{rSubsection}{Scaling state storage in blockchains}{May 2025 - present}{}{}
+        \item Proposed a blockchain design approach that is capable for optimizing the storage requirement of individual blockchain nodes and overall storage consumption without security degradation.
+        Formally defined an implementation-independent abstraction for state storage and proved blockchain security properties based on it.
+        \item Designed a concrete storage layer, achieving scalable storage consumption with tiered update and state snapshot, authenticated data structure and erasure coding.
+        \item Implemented the proposed blockchain system in Rust and performed geological-distributed evaluation on AWS.
+        \item Research paper submitted to top system conference.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Decentralized storage network with scalable volume and security}{Jun 2022 - present}{}{}
+        \item Designed a decentralized storage network that achieves data availability, storage scalability and blockchain efficiency simultaneously, leveraging a verifiable sampling-based placement strategy and verifiable rateless erasure coding.
+        \item Implemented prototype in Rust, performed discrete event simulation and geological-distributed evaluation on AWS.
+        \item Research paper submitted to top system conference.
+    \end{rSubsection}
+
+    \begin{rSubsection}{High performance BFT protocol co-designed with in-network computing}{Jan 2021 - Nov 2023}{}{}
+        \item Proposed a novel network primitive that provides in-network ordering, and designed a high-performance Byzantine fault tolerance replication protocol with the primitive.
+        \item Implemented the network primitive with P4 on Tofino programmable switch and protocol prototype with Rust.
+        Performed large-scale evaluation on AWS.
+        \item Research paper accepted by top network conference (SIGCOMM '23).
+    \end{rSubsection}
+
+    \begin{rSubsection}{Secure and high performance network function virtualization}{Jun 2020 - May 2022}{}{}
+        \item Participated in implementing a high performance secure network function virtualization framework.
+        Extensively worked with a custom dynamic loader, DPDK and Intel MPK.
+        Implemented in C and X86 assembly for stackful coroutine.
+        \item Research paper accepted by top network conference (NSDI '23) and submitted to top network transaction.
+    \end{rSubsection}
+
+    \begin{rSubsection}{High performance network stack programming for network middleboxes}{Aug 2018 - Apr 2020}{}{}
+        \item Implemented a compiler in Python that generates highly-optimized network stack implementations in C from lightweight specification (e.g., 200 lines for TCP/IP stack).
+        \item Participated in adding support to generate for various protocols including QUIC.
+        \item Research paper accepted by top network conference (NSDI '21) and top network transaction (ToN).
+    \end{rSubsection}
+
+    \begin{rSubsection}{Programming language for software defined network}{Feb 2018 - Feb 2019}{}{}
+        \item Implemented a compiler in Cython that merges and compiles programs written in various software defined network languages into mixed integer programming problems, employs Gurobi to solve them, and translates solutions into global network configurations.
+        \item Designed problem simplification and pre-splitting algorithms that reduce solving time from weeks to minutes.
+        Implemented the algorithms efficiently with sophisticated parallelization.
+        Evaluated the compiler with more than ten software defined network programs and multiple real-world network topologies.
+        \item Research paper accepted by top network conference (CoNEXT '20) and top network transaction (ToN).
+    \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{HONORS}
+\begin{tabular}{ @{} >{\bfseries}ll }
+2023 & Research Achievement Award, School of Computing, NUS\\
+2020 & NUS Research Scholarship \\
+\end{tabular}
+\end{rSection}
+
+
+\begin{rSection}{TEACHING}
+\begin{tabular}{ @{} >{\bfseries}ll }
+CS5223 & Distributed System \\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{\bfseries}l p{0.68\textwidth} }
+Programming languages 
+    & Daily using: Rust, Python, \LaTeX \\
+    & Have completed projects with: C++, Java, TypeScript, Coq \\
+    & Familiar with: C\#, Haskell, OCaml, Erlang, Go, Ruby \\
+Tools \& platforms
+    & VS Code \& Copilot, Linux, AWS, Cloudflare, Terraform, GitHub, \texttt{uv}, CMake, Vue \\ 
+Development 
+    & Distributed systems and network protocols, programming language compilers and interpreters, full-stack website
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Projects For Fun}
+    \href{https://www.zhihu.com/people/cowsay/posts}{More than 100 articles on Zhihu}. 4.4k up votes in total.
+
+    VS Code extensions:
+    \begin{itemize}
+        \item \href{https://github.com/whoiscc/rust-comment}{rust-comment}: A VS Code extension for correct comment width adhere to \href{https://doc.rust-lang.org/style-guide/\#comments}{The Rust Style Guide}.
+        \item \href{https://github.com/whoiscc/shift-saver}{Shift Saver}: A VS Code extension reducing the use of shift key when naming.
+    \end{itemize}
+
+    Memory allocators:
+    \begin{itemize}
+        \item \href{https://github.com/sgdxbc/MinimalHeap}{MinimalHeap}: A well-tested baseline implementation.
+        \item \href{https://github.com/ants-xjtu/memgrid}{MemGrid}: A memory allocator that supports allocating in pre-allocated buffer.
+        \item \href{https://github.com/whoiscc/simpile}{simpile}: A memory allocator written in Rust and fuzz-tested.
+    \end{itemize}
+
+    Languages:
+    \begin{itemize}
+        \item \href{https://github.com/whoiscc/shattuck}{Shattack}: A scripting language interpreter written in Rust.
+        \item \href{https://github.com/whoiscc/cgen}{cgen}: A code generator in Python as a generic programming solution for C.
+    \end{itemize}
+
+    \href{https://github.com/neatsys/neatworks}{Neatworks}: A researching codebase for distributed protocols in Rust.
+    Reusable network transportation module and reference implementations for various seminar works.
+
+    \href{https://littlebot.blog}{Personal blog} (open source soon).
+    A content-focused minimal website generated directly from Python scripts without static site generator.
+    Deployed with Cloudflare Pages and RAG-based searching backed by Cloudflare AI Search.
+
+    \href{https://github.com/whoiscc/fastray}{fastray}: My Rust implementation of \href{https://raytracing.github.io/}{Ray Tracing in One Weekend}.
+
+    \href{https://github.com/whoiscc/twenty48}{twenty48}: A 2048 game with perfect animation for arbitrarily frequent operations.
+
+    \href{https://github.com/sgdxbc/izuko}{izuko}: A profiler and monitor for IPFS.
+
+    Progress management application (public available soon).
+    Frontend with Vue and backend with Hono and SQLite.
+    Deployed with Cloudflare Workers, D1 and R2.
+\end{rSection}
+
 \begin{rSection}{Publication}
 \begin{enumerate}[label={[}\arabic*{]}]
-\setlength\itemsep{-0.5em}
+% \setlength\itemsep{-0.5em}
 
 \item 
     \textbf{Guangda Sun}, Mingliang Jiang, Xin Zhe Khooi, Yunfan Li, Jialin Li. 
     \textit{NeoBFT: Accelerating Byzantine Fault Tolerance Using Authenticated In-Network Ordering.}
     Proceedings of the ACM SIGCOMM 2023 Conference.
-    ~\href{https://doi.org/10.1145/3603269.3604874}{paper},
+    \href{https://doi.org/10.1145/3603269.3604874}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/3603269.3604874.pdf}{pdf},
     \href{https://github.com/nus-sys/neobft-artifact}{code}\\
     \textit{Equip programmable switches with cryptographics and use them to improve ordering performance of BFT protocols.}
@@ -69,96 +190,48 @@ Advisor: Hao Li
     Hao Li, Yihan Dang, \textbf{Guangda Sun}, Changhao Wu, Peng Zhang, Danfeng Shan, Tian Pan, and Chengchen Hu.
     \textit{Programming Network Stack for Physical Middleboxes and Virtualized Network Functions.}
     IEEE/ACM Transactions on Networking 32.2 (2023).
-    ~\href{https://ieeexplore.ieee.org/document/10273850}{paper},
+    \href{https://ieeexplore.ieee.org/document/10273850}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/TNET.2023.3307641.pdf}{pdf}
 
 \item
     Hao Li, Yihan Dang, \textbf{Guangda Sun}, Guyue Liu, Danfeng Shan, Peng Zhang.
     \textit{LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed.}
     20th USENIX Symposium on Networked Systems Design and Implementation (NSDI '23).
-    ~\href{https://www.usenix.org/conference/nsdi23/presentation/li-hao}{paper},
+    \href{https://www.usenix.org/conference/nsdi23/presentation/li-hao}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/nsdi23-li-hao.pdf}{pdf},
     \href{https://github.com/ants-xjtu/neptune}{code}
-    \textit{Efficient run-to-complete network function virtualization that is as robust as process-level isolated solutions.}
 
 \item
     Hao Li, Changhao Wu, \textbf{Guangda Sun}, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu.
     \textit{Programming Network Stack for Middleboxes with Rubik.}
     18th USENIX Symposium on Networked Systems Design and Implementation (NSDI '21).
-    ~\href{https://www.usenix.org/conference/nsdi21/presentation/li}{paper},
+    \href{https://www.usenix.org/conference/nsdi21/presentation/li}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/nsdi21-li.pdf}{pdf},
     \href{https://github.com/ants-xjtu/rubik}{code}
-    \textit{Generate protocol stack implementations of either standard or modded protocols for network functions with a fexible programming model and minimal coding effort.}
 
 \item
     Hao Li, Peng Zhang, \textbf{Guangda Sun}, Wanyue Cao, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
     \textit{Compiling Cross-Language Network Programs Into Hybrid Data Plane.}
     IEEE/ACM Transactions on Networking 30.3 (2021).
-    ~\href{http://ieeexplore.ieee.org/document/9648264}{paper},
+    \href{http://ieeexplore.ieee.org/document/9648264}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/coder-ton22-li.pdf}{pdf}
 
 \item
     Hao Li, Peng Zhang, \textbf{Guangda Sun}, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
     \textit{A Modular Compiler for Network Programming Languages.}
     Proceedings of the 16th International Conference on emerging Networking EXperiments and Technologies (CoNEXT '20).
-    ~\href{https://dl.acm.org/doi/10.1145/3386367.3432063}{paper},
+    \href{https://dl.acm.org/doi/10.1145/3386367.3432063}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/coder-conext20-li.pdf}{pdf},
     \href{https://github.com/ants-xjtu/sidfam-v3}{code}
-    \textit{Universal, state machine based immediate representation for network programming and the compilation toolchain around it.}
 
 \item
     Hao Li, Peng Zhang, \textbf{Guangda Sun}, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu
     \textit{An Intermediate Representation for Network Programming Languages.}
     Proceedings of the 4th Asia-Pacific Workshop on Networking (APNet '20).
-    ~\href{https://dl.acm.org/doi/10.1145/3411029.3411030}{paper},
+    \href{https://dl.acm.org/doi/10.1145/3411029.3411030}{paper},
     \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/apnet20-final4.pdf}{pdf}
 
 \end{enumerate}
-\end{rSection}
-
-\begin{rSection}{Research experience}
-{\bf High performance and scalable blockchain} \hfill {\em Dec 2020 - present} \\ 
-{\bf Advisor:} Jialin Li, Assistant Professor, NUS\\
- $\LargerCdot$ Proposed a BFT protocol co-designed with cryptographic-enabled programmable switch that achieves optimal latency and throughput. \\
- $\LargerCdot$ Designing a BFT protocol with scalable state to support big data applications on blockchains.
-
-{\bf Software Defined Networks and Network Function Virtualization} \hfill {\em Jan 2018 - May 2021} \\ 
-{\bf Advisor:} Hao Li, Associate Professor, XJTU\\
- $\LargerCdot$ Designed a compiler and an intermediate representation that universally support programming languages of software defined networks, allowing source code written in different languages to be translated and synthesized into single network configuration.\\
- $\LargerCdot$ Designed a compiler and a domain specific language for network protocol stack to automatically generate high performance network stack implementation for network functions with customizable protocol specifications. \\
- $\LargerCdot$ Designed a highly efficient, run-to-completion network function virtualization framework that achieves both process-level fault isolation.
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-\begin{rSection}{HONORS}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
-2023 & Research Achievement Award, School of Computing, NUS\\
-2020 & NUS Research Scholarship \\
-\end{tabular}
-\end{rSection}
-
-
-\begin{rSection}{TEACHING}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
-CS5223 & Distributed System \\
-\end{tabular}
-\end{rSection}
-
-\begin{rSection}{Technical Strengths}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming languages 
-    & (Proficient) Rust, Python, (Not proficient because no one can) C++, \\
-    & (Extensively use) Coq, Java, \LaTeX, (Some familiarity) C\#, Haskell, \\
-    & TypeScript, OCaml, Erlang, Go, Ruby \\
-Tools 
-    & AWS, \LaTeX, VS Code \\ 
-Development 
-    & Distributed systems and protocols, OS and network, compilers and \\
-    & interpreters, container, GitHub Actions, (basic understanding) graphic \\
-    & renderer
-\end{tabular}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
