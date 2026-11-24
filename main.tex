@@ -31,117 +31,186 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 \hypersetup{colorlinks=true}
-    
+
 
 \name{\underline{Sun} Guangda} % Your name
 % \address{National University of Singapore \\ 21 Lower Kent Ridge Rd, Singapore 119077} % Your address
-  
-\address{\href{https://github.com/sgdxbc}{GitHub: sgdxbc} \\ \href{mailto:sung@comp.nus.edu.sg}{sung@comp.nus.edu.sg}} % Your phone number and email
+
+\address{\href{https://github.com/sgdxbc}{GitHub: sgdxbc} \\ \href{mailto:guangda@u.nus.edu}{guangda@u.nus.edu}} % Your phone number and email
 
 \begin{document}
 
-Ph.D. candidate in Computer Science at NUS researching scalable and secure distributed systems, with a focus on blockchain storage, decentralized data availability, and high-performance BFT protocols.
-I build end-to-end systems in Rust and evaluate them at scale, and my work has been published at top venues including SIGCOMM, NSDI, and IEEE/ACM ToN.
+Ph.D. in Computer Science from NUS, now an R\&D engineer at ByteDance working on large-scale data infrastructure.
+I design, build, and evaluate distributed systems end to end, mostly in Rust:
+Byzantine fault-tolerant replication, blockchain and decentralized storage, and high-performance network systems.
+I also have a background in compilers and constraint solving.
+Published at SIGCOMM, NSDI, CoNEXT, and IEEE/ACM ToN.
+I enjoy turning research ideas into reliable, high-performance systems.
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Education}
-    \textbf{National University of Singapore} \hfill {\em 2020 - 2026} \\ 
-    Ph.D. Candidate in Computer Science (full time) \\
+    \textbf{National University of Singapore} \hfill {\em 2020 - 2026} \\
+    Ph.D. in Computer Science \\
     Advisor: Jialin Li, Assistant Professor \\
 
-    \textbf{Xi'an Jiaotong University}  \hfill {\em 2014 - 2020} \\ 
+    \textbf{Xi'an Jiaotong University}  \hfill {\em 2014 - 2020} \\
     % School of Electronic and Information Engineering \\
-    Bachelor of Engineering in Computer Science and Technology, \emph{Honors Youth Program} (full time) \\
+    Bachelor of Engineering in Computer Science and Technology, \emph{Honors Youth Program} \\
     Advisor: Hao Li, Associate Professor
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	INDUSTRY EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Work experience}
-    \begin{rSubsection}{Bytedance Pte. Ltd.}{Aug 2026 - present}{Research \& Development}{Singapore}
-        \item Developed and optimized the data path of the streaming learning sample pipeline.
-        \item Supported various business lines including recommendation (e.g., video feeds of Douyin \& Tiktok), advertisement and searching.
-        \item Focused on optimizing storage in large-scale (over 10k cores) clusters.
-            By enhancing network communication, retired message queue consuming several TBs of storage.
+\begin{rSection}{Industry Experience}
+    \begin{rSubsection}{ByteDance Pte. Ltd.}{Aug 2026 - present}{Research \& Development}{Singapore}
+        \item Develop and optimize the data path of the streaming learning-sample pipeline, serving recommendation (e.g., Douyin \& TikTok video feeds), advertising, and search.
+        \item Optimize storage in large-scale clusters (10k+ cores); improved network communication to retire a message queue that consumed several TBs of storage.
     \end{rSubsection}
 \end{rSection}
 
-\iffalse
-\begin{rSection}{Research experience}
-    \begin{rSubsection}{Scaling state storage in blockchains}{May 2025 - present}{}{}
-        \item Proposed a blockchain design approach that is capable for optimizing the storage requirement of individual blockchain nodes and overall storage consumption without security degradation.
-        Formally defined an implementation-independent abstraction for state storage and proved blockchain security properties based on it.
-        \item Designed a concrete storage layer, achieving scalable storage consumption with tiered update and state snapshot, authenticated data structure and erasure coding.
-        \item Implemented the proposed blockchain system in Rust and performed geological-distributed evaluation on AWS.
-        \item Research paper submitted to top system conference.
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Experience}
+    \begin{rSubsection}{BigBFT: scaling BFT via state sharding}{May 2025 - present}{APSys '26, first author}{}
+        \item Designed a BFT transactional store that shards state but not execution: one consensus protocol orders all transactions while node shards serve state partitions in parallel, without weakening fault tolerance.
+        \item Built the storage layer with tiered updates, state snapshots, authenticated data structures, and erasure coding; implemented in Rust and evaluated with geo-distributed deployments on AWS.
     \end{rSubsection}
 
-    \begin{rSubsection}{Decentralized storage network with scalable volume and security}{Jun 2022 - present}{}{}
-        \item Designed a decentralized storage network that achieves data availability, storage scalability and blockchain efficiency simultaneously, leveraging a verifiable sampling-based placement strategy and verifiable rateless erasure coding.
-        \item Implemented prototype in Rust, performed discrete event simulation and geological-distributed evaluation on AWS.
-        \item Research paper submitted to top system conference.
+    \begin{rSubsection}{Decentralized storage network with scalable volume and security}{Jun 2022 - present}{Under submission}{}
+        \item Designed a decentralized storage network that achieves data availability, storage scalability, and blockchain efficiency simultaneously, using verifiable sampling-based placement and verifiable rateless erasure coding.
+            Implemented in Rust; evaluated with discrete-event simulation and geo-distributed deployments on AWS.
     \end{rSubsection}
 
-    \begin{rSubsection}{High performance BFT protocol co-designed with in-network computing}{Jan 2021 - Nov 2023}{}{}
-        \item Proposed a novel network primitive that provides in-network ordering, and designed a high-performance Byzantine fault tolerance replication protocol with the primitive.
-        \item Implemented the network primitive with P4 on Tofino programmable switch and protocol prototype with Rust.
-        Performed large-scale evaluation on AWS.
-        \item Research paper accepted by top network conference (SIGCOMM '23).
+    \begin{rSubsection}{NeoBFT: BFT replication with authenticated in-network ordering}{Jan 2021 - Nov 2023}{SIGCOMM '23, first author}{}
+        \item Proposed an authenticated in-network ordering primitive and built a high-performance BFT protocol on it.
+        \item Implemented the primitive in P4 on Tofino switches and the protocol in Rust; evaluated at scale on AWS.
     \end{rSubsection}
 
-    \begin{rSubsection}{Secure and high performance network function virtualization}{Jun 2020 - May 2022}{}{}
-        \item Participated in implementing a high performance secure network function virtualization framework.
-        Extensively worked with a custom dynamic loader, DPDK and Intel MPK.
-        Implemented in C and X86 assembly for stackful coroutine.
-        \item Research paper accepted by top network conference (NSDI '23) and submitted to top network transaction.
+    \begin{rSubsection}{LemonNFV: secure, high-performance network function virtualization}{Jun 2020 - May 2022}{NSDI '23}{}
+        \item Co-implemented a framework that consolidates heterogeneous network functions at line speed, isolated with Intel MPK and a custom dynamic loader on DPDK; wrote stackful coroutines in C and x86 assembly.
     \end{rSubsection}
 
-    \begin{rSubsection}{High performance network stack programming for network middleboxes}{Aug 2018 - Apr 2020}{}{}
-        \item Implemented a compiler in Python that generates highly-optimized network stack implementations in C from lightweight specification (e.g., 200 lines for TCP/IP stack).
-        \item Participated in adding support to generate for various protocols including QUIC.
-        \item Research paper accepted by top network conference (NSDI '21) and top network transaction (ToN).
+    \begin{rSubsection}{Rubik: programming network stacks for middleboxes}{Aug 2018 - Apr 2020}{NSDI '21, IEEE/ACM ToN}{}
+        \item Implemented a Python compiler that generates optimized C network stacks from short protocol specifications.
     \end{rSubsection}
 
-    \begin{rSubsection}{Programming language for software defined network}{Feb 2018 - Feb 2019}{}{}
-        \item Implemented a compiler in Cython that merges and compiles programs written in various software defined network languages into mixed integer programming problems, employs Gurobi to solve them, and translates solutions into global network configurations.
-        \item Designed problem simplification and pre-splitting algorithms that reduce solving time from weeks to minutes.
-        Implemented the algorithms efficiently with sophisticated parallelization.
-        Evaluated the compiler with more than ten software defined network programs and multiple real-world network topologies.
-        \item Research paper accepted by top network conference (CoNEXT '20) and top network transaction (ToN).
+    \begin{rSubsection}{Solver-based compiler for network programming languages}{Feb 2018 - Feb 2019}{CoNEXT '20, IEEE/ACM ToN}{}
+        \item Implemented a compiler in Cython that compiles programs written in multiple software-defined networking languages into mixed-integer programming problems, solves them with Gurobi, and translates the solutions into global network configurations.
+        \item Designed parallel problem simplification and pre-splitting, cutting solving time from weeks to minutes.
     \end{rSubsection}
 \end{rSection}
-\fi
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+\begin{enumerate}[label={[}\arabic*{]}]
+% \setlength\itemsep{-0.5em}
+
+\item
+    \textbf{Guangda Sun}, Jialin Li.
+    \textit{BigBFT: Scaling BFT without Compromising Fault Tolerance via State Sharding.}
+    ACM SIGOPS Asia-Pacific Workshop on Systems (APSys '26).
+    \href{https://doi.org/10.1145/3838177.3841729}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/bigbft_apsys26.pdf}{pdf}
+
+\item
+    \textbf{Guangda Sun}, Mingliang Jiang, Xin Zhe Khooi, Yunfan Li, Jialin Li.
+    \textit{NeoBFT: Accelerating Byzantine Fault Tolerance Using Authenticated In-Network Ordering.}
+    Proceedings of the ACM SIGCOMM 2023 Conference.
+    \href{https://doi.org/10.1145/3603269.3604874}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/3603269.3604874.pdf}{pdf},
+    \href{https://github.com/nus-sys/neobft-artifact}{code}
+
+
+\item
+    Hao Li, Yihan Dang, \textbf{Guangda Sun}, Changhao Wu, Peng Zhang, Danfeng Shan, Tian Pan, and Chengchen Hu.
+    \textit{Programming Network Stack for Physical Middleboxes and Virtualized Network Functions.}
+    IEEE/ACM Transactions on Networking 32.2 (2023).
+    \href{https://ieeexplore.ieee.org/document/10273850}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/TNET.2023.3307641.pdf}{pdf}
+
+\item
+    Hao Li, Yihan Dang, \textbf{Guangda Sun}, Guyue Liu, Danfeng Shan, Peng Zhang.
+    \textit{LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed.}
+    20th USENIX Symposium on Networked Systems Design and Implementation (NSDI '23).
+    \href{https://www.usenix.org/conference/nsdi23/presentation/li-hao}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/nsdi23-li-hao.pdf}{pdf},
+    \href{https://github.com/ants-xjtu/neptune}{code}
+
+\item
+    Hao Li, Changhao Wu, \textbf{Guangda Sun}, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu.
+    \textit{Programming Network Stack for Middleboxes with Rubik.}
+    18th USENIX Symposium on Networked Systems Design and Implementation (NSDI '21).
+    \href{https://www.usenix.org/conference/nsdi21/presentation/li}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/nsdi21-li.pdf}{pdf},
+    \href{https://github.com/ants-xjtu/rubik}{code}
+
+\item
+    Hao Li, Peng Zhang, \textbf{Guangda Sun}, Wanyue Cao, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
+    \textit{Compiling Cross-Language Network Programs Into Hybrid Data Plane.}
+    IEEE/ACM Transactions on Networking 30.3 (2021).
+    \href{http://ieeexplore.ieee.org/document/9648264}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/coder-ton22-li.pdf}{pdf}
+
+\item
+    Hao Li, Peng Zhang, \textbf{Guangda Sun}, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
+    \textit{A Modular Compiler for Network Programming Languages.}
+    Proceedings of the 16th International Conference on emerging Networking EXperiments and Technologies (CoNEXT '20).
+    \href{https://dl.acm.org/doi/10.1145/3386367.3432063}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/coder-conext20-li.pdf}{pdf},
+    \href{https://github.com/ants-xjtu/sidfam-v3}{code}
+
+\item
+    Hao Li, Peng Zhang, \textbf{Guangda Sun}, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
+    \textit{An Intermediate Representation for Network Programming Languages.}
+    Proceedings of the 4th Asia-Pacific Workshop on Networking (APNet '20).
+    \href{https://dl.acm.org/doi/10.1145/3411029.3411030}{paper},
+    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/apnet20-final4.pdf}{pdf}
+
+\end{enumerate}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SELECTED PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Selected Projects}
+\begin{tabular}{ @{} >{\bfseries}l p{0.8\textwidth} }
+\href{https://github.com/neatsys/neatworks}{Neatworks} & Reusable Rust building blocks and reference implementations for distributed protocols \\
+\href{https://github.com/sgdxbc/izuko}{izuko} & A profiler and monitor for IPFS \\
+\href{https://github.com/whoiscc/simpile}{simpile} & A memory allocator written in Rust and fuzz-tested \\
+\href{https://github.com/whoiscc/shattuck}{Shattuck} & A scripting language interpreter written in Rust
+\end{tabular}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{HONORS}
-\begin{tabular}{ @{} >{\bfseries}ll }
-2023 & Research Achievement Award, School of Computing, NUS\\
-2020 & NUS Research Scholarship \\
-\end{tabular}
-\end{rSection}
-
-
-\begin{rSection}{TEACHING}
-\begin{tabular}{ @{} >{\bfseries}ll }
-CS5223 & Distributed System \\
-\end{tabular}
-\end{rSection}
-
 \begin{rSection}{Technical Strengths}
-\begin{tabular}{ @{} >{\bfseries}l p{0.68\textwidth} }
-Programming languages 
-    & Daily using: Rust, Python, \LaTeX, C++, Java \\
-    & Have completed projects with: TypeScript, Coq \\
-    & Familiar with: C\#, Haskell, OCaml, Erlang, Go, Ruby \\
+\begin{tabular}{ @{} >{\bfseries}l p{0.71\textwidth} }
+Programming languages
+    & Daily using: Rust, Python, C++, Java, \LaTeX \\
+    & Have completed projects with: C, TypeScript, P4, x86 assembly, Coq \\
+    & Familiar with: Go, OCaml, Haskell, Erlang, C\#, Ruby \\
+Areas
+    & Distributed systems, BFT, storage, high-performance networking, solvers \\
 Tools \& platforms
-    & Claude Code, Codex, VS Code, Linux, AWS, Cloudflare, Terraform, GitHub, \texttt{uv}, CMake, Vue \\ 
-Development 
-    & Distributed systems and network protocols, programming language compilers and interpreters, full-stack website
+    & Linux, AWS, Terraform, Cloudflare, DPDK, Tofino, Gurobi, Claude Code, Codex
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS & TEACHING SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Honors \& Teaching}
+\begin{tabular}{ @{} >{\bfseries}ll }
+2023 & Research Achievement Award, School of Computing, NUS \\
+2020 & NUS Research Scholarship \\
+Teaching & CS5223 Distributed Systems, NUS \\
 \end{tabular}
 \end{rSection}
 
@@ -186,77 +255,6 @@ Development
     Deployed with Cloudflare Workers, D1 and R2.
 \end{rSection}
 \fi
-
-\begin{rSection}{Publication}
-\begin{enumerate}[label={[}\arabic*{]}]
-% \setlength\itemsep{-0.5em}
-
-\item 
-    \textbf{Guangda Sun}, Mingliang Jiang, Xin Zhe Khooi, Yunfan Li, Jialin Li. 
-    \textit{NeoBFT: Accelerating Byzantine Fault Tolerance Using Authenticated In-Network Ordering.}
-    Proceedings of the ACM SIGCOMM 2023 Conference.
-    \href{https://doi.org/10.1145/3603269.3604874}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/3603269.3604874.pdf}{pdf},
-    \href{https://github.com/nus-sys/neobft-artifact}{code}
-    
-
-\item
-    Hao Li, Yihan Dang, \textbf{Guangda Sun}, Changhao Wu, Peng Zhang, Danfeng Shan, Tian Pan, and Chengchen Hu.
-    \textit{Programming Network Stack for Physical Middleboxes and Virtualized Network Functions.}
-    IEEE/ACM Transactions on Networking 32.2 (2023).
-    \href{https://ieeexplore.ieee.org/document/10273850}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/TNET.2023.3307641.pdf}{pdf}
-
-\item
-    Hao Li, Yihan Dang, \textbf{Guangda Sun}, Guyue Liu, Danfeng Shan, Peng Zhang.
-    \textit{LemonNFV: Consolidating Heterogeneous Network Functions at Line Speed.}
-    20th USENIX Symposium on Networked Systems Design and Implementation (NSDI '23).
-    \href{https://www.usenix.org/conference/nsdi23/presentation/li-hao}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/nsdi23-li-hao.pdf}{pdf},
-    \href{https://github.com/ants-xjtu/neptune}{code}
-
-\item
-    Hao Li, Changhao Wu, \textbf{Guangda Sun}, Peng Zhang, Danfeng Shan, Tian Pan, Chengchen Hu.
-    \textit{Programming Network Stack for Middleboxes with Rubik.}
-    18th USENIX Symposium on Networked Systems Design and Implementation (NSDI '21).
-    \href{https://www.usenix.org/conference/nsdi21/presentation/li}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/nsdi21-li.pdf}{pdf},
-    \href{https://github.com/ants-xjtu/rubik}{code}
-
-\item
-    Hao Li, Peng Zhang, \textbf{Guangda Sun}, Wanyue Cao, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
-    \textit{Compiling Cross-Language Network Programs Into Hybrid Data Plane.}
-    IEEE/ACM Transactions on Networking 30.3 (2021).
-    \href{http://ieeexplore.ieee.org/document/9648264}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/coder-ton22-li.pdf}{pdf}
-
-\item
-    Hao Li, Peng Zhang, \textbf{Guangda Sun}, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu.
-    \textit{A Modular Compiler for Network Programming Languages.}
-    Proceedings of the 16th International Conference on emerging Networking EXperiments and Technologies (CoNEXT '20).
-    \href{https://dl.acm.org/doi/10.1145/3386367.3432063}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/coder-conext20-li.pdf}{pdf},
-    \href{https://github.com/ants-xjtu/sidfam-v3}{code}
-
-\item
-    Hao Li, Peng Zhang, \textbf{Guangda Sun}, Chengchen Hu, Danfeng Shan, Tian Pan, Qiang Fu
-    \textit{An Intermediate Representation for Network Programming Languages.}
-    Proceedings of the 4th Asia-Pacific Workshop on Networking (APNet '20).
-    \href{https://dl.acm.org/doi/10.1145/3411029.3411030}{paper},
-    \href{https://github.com/sgdxbc/sgdxbc/blob/main/papers/apnet20-final4.pdf}{pdf}
-
-\end{enumerate}
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
-%----------------------------------------------------------------------------------------
-
-%\begin{rSection}{Section Name}
-
-%Section content\ldots
-
-%\end{rSection}
 
 %----------------------------------------------------------------------------------------
 
